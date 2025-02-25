@@ -123,7 +123,7 @@ void sendToGoogleSheet(String message) {
             setRGB(255, 0, 0); // LED Merah (Data gagal disimpan)
             beep(500, 3); // Nada error panjang & berulang
             delay(1000);
-            setRGB(0, 0, 255); // LED RGB kembali mati
+            setRGB(0, 0, 255); // LED RGB kembali standby
         }
         
         http.end();
